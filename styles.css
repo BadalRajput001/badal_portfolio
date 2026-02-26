@@ -1,25 +1,72 @@
-.portfolio {
+:root {
+    --primary-color: #007BFF;
+    --secondary-color: #ffffff;
+    --font-family: 'Arial', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: var(--secondary-color);
+}
+
+nav {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    background-color: var(--primary-color);
     padding: 20px;
 }
 
-.header {
-    font-size: 2em;
-    color: #333;
+nav a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    margin: 0 15px;
 }
 
-.project {
-    background: #f2f2f2;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-    width: 80%;
-}
-
-.footer {
-    font-size: 0.8em;
-    color: #888;
+.hero {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     text-align: center;
+}
+
+.about, .skills, .projects, .experience, .certifications, .contact {
+    padding: 50px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+    .hero {
+        height: 50vh;
+    }
 }
