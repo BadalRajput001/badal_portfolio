@@ -1,0 +1,25 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.header {
+    font-size: 2em;
+    color: #333;
+}
+
+.project {
+    background: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+}
+
+.footer {
+    font-size: 0.8em;
+    color: #888;
+    text-align: center;
+}
