@@ -1,72 +1,27 @@
-:root {
-    --primary-color: #007BFF;
-    --secondary-color: #ffffff;
-    --font-family: 'Arial', sans-serif;
+.navbar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
 }
 
-body {
-    font-family: var(--font-family);
-    margin: 0;
-    padding: 0;
-    color: #333;
-    background-color: var(--secondary-color);
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--primary-color);
-    padding: 20px;
-}
-
-nav a {
-    color: var(--secondary-color);
+.navbar a {
+    padding: 15px 20px;
     text-decoration: none;
-    margin: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    display: block;
 }
 
-.hero {
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    text-align: center;
+.navbar a:hover {
+    background-color: #575757;
 }
 
-.about, .skills, .projects, .experience, .certifications, .contact {
-    padding: 50px;
-    text-align: center;
-}
-
-h1, h2, h3 {
-    margin: 0;
-}
-
-button {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-footer {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    text-align: center;
-    padding: 15px;
-}
-
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-    }
-    .hero {
-        height: 50vh;
-    }
+.main {
+    margin-left: 260px;  /* Same as the width of the navbar */
+    padding: 20px;
 }
