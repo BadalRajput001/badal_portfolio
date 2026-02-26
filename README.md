@@ -48,8 +48,8 @@ badal_portfolio/
 - Modify HTML structure in `index.html` to add new sections.
 
 ### Contact Information
-- Email: [your_email@example.com](mailto:your_email@example.com)
-- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+- Email: [your_email@example.com](mailto:badalhulk123@gmail.com)
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/badal-rajput-623a06137)
 
 ### Education
 - Bachelor of Science in Computer Science
